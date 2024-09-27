@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionContainer } from "../../components";
 import {
   Typography,
