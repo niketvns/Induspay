@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --color-font-primary: #161c2d;
+  --color-font-secondary: #f64b4b;
+  --color-white: #ffffff;
+  --color-blue: #473bf0;
+  --color-green: #68d585;
+  --color-red: #f64b4b;
+  /* Font Family */
+  --typography-font-family-primary: var(--font-family-primary);
+  --typography-font-family-secondary: var(--font-family-secondary);
+  --typography-font-family-body: var(--font-family-body);
+  --typography-font-family-inter: var(--font-family-inter);
+  --typography-font-family-roboto: var(--font-family-roboto);
+  /* Heading 1 */
+  --typography-heading-1-font-size: 30px;
+  --typography-heading-1-font-style: normal;
+  --typography-heading-1-font-weight: 600;
+  /* Heading 1 Mobile */
+  --typography-heading-1-mobile-font-size: 26px;
+  --typography-heading-1-mobile-line-height: 40px;
+  /* Heading 2 */
+  --typography-heading-2-font-size: 26px;
+  --typography-heading-2-font-style: normal;
+  --typography-heading-2-font-weight: 600;
+  /* Heading 2 Mobile */
+  --typography-heading-2-mobile-font-size: 22px;
+  /* Heading 3 */
+  --typography-heading-3-font-size: 22px;
+  --typography-heading-3-font-style: normal;
+  --typography-heading-3-font-weight: 600;
+  /* Heading 3 Mobile */
+  --typography-heading-3-mobile-font-size: 18px;
+  /* Heading 4 */
+  --typography-heading-4-font-size: 16px;
+  --typography-heading-4-font-style: normal;
+  --typography-heading-4-font-weight: 600;
+  --typography-heading-4-line-height: 140%;
+  /* Heading 5 */
+  --typography-heading-5-font-size: 16px;
+  --typography-heading-5-font-style: normal;
+  --typography-heading-5-font-weight: 600;
+  --typography-heading-5-line-height: 140%;
+  /* Body Regular */
+  --typography-body-regular-font-size: 16px;
+  --typography-body-regular-font-style: normal;
+  --typography-body-regular-font-weight: 400;
+  /* Body Medium */
+  --typography-body-medium-font-size: 14px;
+  --typography-body-medium-font-style: normal;
+  --typography-body-medium-font-weight: 400;
+  /* Error Text */
+  --typography-error-text-font-size: 15px;
+  --typography-error-text-font-style: normal;
+  --typography-error-text-font-weight: 400;
+  /* Button */
+  --typography-button-font-size: 18px;
+  /* Button Mobile */
+  --typography-button-mobile-font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}

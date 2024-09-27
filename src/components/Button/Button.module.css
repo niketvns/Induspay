@@ -1,0 +1,9 @@
+.defauleStyle {
+  background-color: var(--color-blue);
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-white);
+  border-radius: 8px;
+}

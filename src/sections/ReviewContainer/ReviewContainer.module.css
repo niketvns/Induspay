@@ -1,0 +1,42 @@
+.reviewWrapper {
+  padding-bottom: 0;
+}
+
+.reviewContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-inline: 20px;
+  margin-inline: auto;
+  border-bottom: 1px solid #e7e9ed;
+  padding-bottom: 80px;
+}
+
+.reviewContainer .profile_logo {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.starImg {
+  width: 20px;
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

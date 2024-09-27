@@ -1,0 +1,29 @@
+.heroBannerContainer {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.heroBannerContainer .para1 {
+  text-transform: uppercase;
+}
+
+.heroBannerContainer .heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.typographyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+}

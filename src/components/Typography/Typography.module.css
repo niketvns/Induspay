@@ -1,0 +1,74 @@
+.primary {
+  color: var(--color-font-primary);
+}
+
+.secondary {
+  color: var(--color-font-secondary);
+}
+
+.heading1 {
+  font-family: var(--typography-font-family-primary);
+  font-size: var(--typography-heading-1-font-size);
+  font-style: var(--typography-heading-1-font-style);
+  font-weight: var(--typography-heading-1-font-weight);
+}
+
+.heading2 {
+  font-family: var(--typography-font-family-primary);
+  font-size: var(--typography-heading-2-font-size);
+  font-style: var(--typography-heading-2-font-style);
+  font-weight: var(--typography-heading-2-font-weight);
+}
+
+.heading3 {
+  font-family: var(--typography-font-family-primary);
+  font-size: var(--typography-heading-3-font-size);
+  font-style: var(--typography-heading-3-font-style);
+  font-weight: var(--typography-heading-3-font-weight);
+}
+
+.heading4 {
+  font-family: var(--typography-font-family-primary);
+  font-size: var(--typography-heading-4-font-size);
+  font-style: var(--typography-heading-4-font-style);
+  font-weight: var(--typography-heading-4-font-weight);
+}
+
+.heading5 {
+  font-family: var(--typography-font-family-primary);
+  font-size: var(--typography-heading-5-font-size);
+  font-style: var(--typography-heading-5-font-style);
+  font-weight: var(--typography-heading-5-font-weight);
+}
+
+.bodyRegular {
+  font-family: var(--typography-font-family-body);
+  font-style: var(--typography-body-regular-font-style);
+  font-weight: var(--typography-body-regular-font-weight);
+}
+
+.bodyMedium {
+  font-family: var(--typography-font-family-body);
+  font-style: var(--typography-body-medium-font-style);
+  font-weight: var(--typography-body-medium-font-weight);
+}
+
+.errorText {
+  color: var(--color-red-70);
+  font-family: var(--typography-font-family-body);
+  font-size: var(--typography-error-text-font-size);
+  font-style: var(--typography-error-text-font-style);
+  font-weight: var(--typography-error-text-font-weight);
+}
+
+@media screen and (width < 768px) {
+  .heading1 {
+    font-size: var(--typography-heading-1-mobile-font-size);
+  }
+  .heading2 {
+    font-size: var(--typography-heading-2-mobile-font-size);
+  }
+  .heading3 {
+    font-size: var(--typography-heading-3-mobile-font-size);
+  }
+}

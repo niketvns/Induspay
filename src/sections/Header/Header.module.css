@@ -1,0 +1,39 @@
+.headerWrapper {
+  padding-block: 20px;
+}
+
+.headerContaier {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoNavContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-font-primary);
+  text-decoration: none;
+}
+
+.navStyle ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+.navStyle ul a {
+  text-decoration: none;
+  color: var(--color-font-primary);
+  font-weight: 500;
+}
+
+.navStyle ul a:hover {
+  text-decoration: underline;
+}

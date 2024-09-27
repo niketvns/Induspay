@@ -1,0 +1,7 @@
+.headerHeroBanner {
+  background-image: url("../assets/herobannerbg.svg");
+}
+
+.main {
+  min-height: 80vh;
+}
